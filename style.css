@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Caprasimo&family=Kanit:wght@300&family=League+Spartan:wght@700&family=Poppins:wght@500&family=Slabo+27px&display=swap');
+*{ 
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.paralax{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center;
+}
+.wrapper{
+    height:100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.container1{
+    background-image: url("images/himalayas.jpg");
+    height:100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position:relative;
+    opacity:0.9;
+}
+.text0{
+    position:absolute;
+    bottom:320px;
+    font-size: 1.2rem;
+    color:white;
+    font-family:'Slabo 27px', serif;
+    text-shadow: 3px 3px 5px #000000;
+}
+.srcHead{
+    font-size: 4rem;
+    padding: 0 10rem;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+.headings{
+    color:white;
+    text-shadow: 3px 3px 5px #000000;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 5rem;
+}
+.text{
+    font-size: 1.5rem;
+    padding:0 10rem;
+    margin:5rem 0;
+    font-family: 'Slabo 27px', serif;
+}
+section{
+    /* background-image: linear-gradient(to right top, #ffffff, #b9b9b9, #777777, #3b3b3b, #000000); */
+    background-color:rgb(45,45,45);
+    color:white;
+    padding:5rem 0; 
+}
+
+.bg{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center;
+    height:500px;
+}
+
+.bg1{
+    background-image: url("images/pashupatinath2.jpg");
+}
+.bg2{
+    background-image: url("images/buddhastupa3.jpg");
+}
+.bg3{
+    background-image: url("images/Swoyambhu\ Mahachaitya2.jpg");
+}
+
+.destination{
+    font-size:2.5rem;
+    text-shadow: 3px 3px 5px #000000;
+}
+.animation {
+    opacity: 0;
+    transform: translateX(-300px);
+    transition: all 0.7s ease-out;
+    transition-delay: 0.4s;
+
+}
+
+.scroll-animation {
+    opacity: 1;
+    transform: translateX(0);
+}
